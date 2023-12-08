@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World of Warcraft Random Number Generator</title>
+    <script src="js/logic.js"></script>
+</head>
+
+<body>
+    <h1>World of Warcraft Name Generator</h1>
+    <table>
+    <tr>
+    <td>
+    <fieldset>
+        <legend>Select your race:</legend>
+        <table>
+        <tr>
+            <td>
+        <div>
+            <input type="radio" name="race" id="human" value="1">
+            <label for="human">Human</label>
+        </div>
+        <div>
+            <input type="radio" name="race" id="dwarf" value="3">
+            <label for="dwarf">Dwarf</label>
+        </div>
+        <div>
+            <input type="radio" name="race" id="nightElf" value="4">
+            <label for="nightElf">Night Elf</label>
+        </div>
+        <div>
+            <input type="radio" name="race" id="gnome" value="7">
+            <label for="gnome">Gnome</label>
+        </div>
+        <div>
+            <input type="radio" name="race" id="draenei" value="11">
+            <label for="draenei">Draenei</label>
+        </div>
+        <div>
+            <input type="radio" name="race" id="worgen" value="22">
+            <label for="worgen">Worgen</label>
+        </div>
+        <div>
+            <input type="radio" name="race" id="voidElf" value="29">
+            <label for="voidElf">Void Elf</label>
+        </div>
+        <div>
+            <input type="radio" name="race" id="lightforgedDraenei" value="30">
+            <label for="lightforgedDraenei">Lightforged Draenei</label>
+        </div>
+        <div>
+            <input type="radio" name="race" id="darkIronDwarf" value="34">
+            <label for="darkIronDwarf">Dark Iron Dwarf</label>
+        </div>
+        <div>
+            <input type="radio" name="race" id="kulTiranHuman" value="32">
+            <label for="kulTiranHuman">Kul Tiran Human</label>
+        </div>
+        <div>
+            <input type="radio" name="race" id="mechagnome" value="37">
+            <label for="mechagnome">Mechagnome</label>
+        </div>
+        </td>
+        <td>
+        <div>
+            <input type="radio" name="race" id="orc" value="2">
+            <label for="orc">Orc</label>
+        </div>
+        <div>
+            <input type="radio" name="race" id="undead" value="5">
+            <label for="undead">Undead</label>
+        </div>
+        <div>
+            <input type="radio" name="race" id="tauren" value="6">
+            <label for="tauren">Tauren</label>
+        </div>
+        <div>
+            <input type="radio" name="race" id="troll" value="8">
+            <label for="troll">Troll</label>
+        </div>
+        <div>
+            <input type="radio" name="race" id="bloodElf" value="10">
+            <label for="bloodElf">Blood Elf</label>
+        </div>
+        <div>
+            <input type="radio" name="race" id="goblin" value="9">
+            <label for="goblin">Goblin</label>
+        </div>
+        <div>
+            <input type="radio" name="race" id="nightborne" value="27">
+            <label for="nightborne">Nightborne</label>
+        </div>
+        <div>
+            <input type="radio" name="race" id="highmountainTauren" value="28">
+            <label for="highmountainTauren">Highmountain Tauren</label>
+        </div>
+        <div>
+            <input type="radio" name="race" id="magharOrc" value="36">
+            <label for="magharOrc">Mag'har Orc</label>
+        </div>
+        <div>
+            <input type="radio" name="race" id="zandalariTroll" value="31">
+            <label for="zandalariTroll">Zandalari Troll</label>
+        </div>
+        <div>
+            <input type="radio" name="race" id="vulpera" value="35">
+            <label for="vulpera">Vulpera</label>
+        </div>
+
+        <div>
+        </td>
+        <td>
+            <input type="radio" name="race" id="pandaren" value="24">
+            <label for="pandaren">Pandaren</label>
+        </div>
+        <div>
+            <input type="radio" name="race" id="dracthyr" value="70"> <!-- or 52 -->
+            <label for="dracthyr">Dracthyr</label>
+        </div>
+        <div>
+            <input type="radio" name="race" id="dracthyr" value=""> <!-- or 52 -->
+            <label for="earthen">Earthen (Not Yet Implemented)</label>
+        </div>
+    </td>
+    </tr>
+    </table>
+    </fieldset>
+    </td>
+    <td>
+    <fieldset>
+        <legend>Select your body type:</legend>
+        <div>
+            <input type="radio" name="bodyType" id="bodyType1" value="0">
+            <label for="bodyType1">Body Type 1</label>
+        </div>
+        <div>
+            <input type="radio" name="bodyType" id="bodyType1" value="1">
+            <label for="bodyType1">Body Type 2</label>
+        </div>
+    </fieldset>
+</td>
+    </tr>
+</table>
+
+    <button onclick="generateName()">Generate Name!</button>
+    <p id="nameGenerated"></p>
+
+
+    <hr>
+    <footer>Tool made by <a href="https://davixxa.net">Mia</a> in 2023 with &lt;3
+    <br>
+    Data provided by Blizzard Entertainment through the help of Wago's data mining.
+    <br>
+    Blizzard, please make this tool unnecessary by enabling the name generator on EU servers kthx
+    </footer>
+
+    <strong>Please remember to close the web server again by pressing Ctrl-C in the command prompt after you're done.</strong>
+    
+</body>
+</html>
