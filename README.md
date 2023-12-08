@@ -11,7 +11,7 @@ On Linux, you should also run `chmod+x install.sh` and `chmod+x run.sh` to make 
 
 ## Uninstallation
 
-Just delete the folder this is contained in - this entire program is portable - it just doesn't ship with its dependencies.
+Just delete the folder this is contained in - this entire program is portable - it just doesn't ship with its dependencies. Remove Node.js afterwards if you don't need it anymore - you do this the same way you'd install any other program.
 
 ## Running the tool
 
