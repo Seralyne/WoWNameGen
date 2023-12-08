@@ -4,7 +4,7 @@ Made out of frustration that the in-game World of Warcraft random name generator
 
 ## Dependencies & Installation
 
-Because of security limitations in browsers, this project will have to rely on [Node.js] (https://nodejs.org/en) for any local version of this. In all honesty, any local file server will do the trick, this is just a newbie-ish friendly method. I don't like relying on this, but it is what it is.
+Because of security limitations in browsers, this project will have to rely on [Node.js](https://nodejs.org/en) for any local version of this. In all honesty, any local file server will do the trick, this is just a newbie-ish friendly method. I don't like relying on this, but it is what it is.
 
 It's generally pretty bad form to include dependencies in your repository, so I don't. I have, however, included a script for both Linux (Bash! Sorry fish users!) and Windows that will download the project. The Linux install script *should* also work on macOS, but remains untested.
 
