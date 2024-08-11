@@ -21,8 +21,12 @@ async function generateName() {
     var actualCandidates = raceCandidates.filter((item => item.Sex == bodyType))
 
 
-    var candidate = actualCandidates[Math.floor(Math.random()*actualCandidates.length)]
+    console.log(actualCandidates);
 
+    var candidate = actualCandidates[Math.floor(Math.random()*actualCandidates.length)]
+    
+
+    console.log(candidate);
     document.getElementById("nameGenerated").innerText = "Your generated name is: " + candidate.Name;
 
 }
